@@ -1,39 +1,35 @@
-package testcarrito;
-import java.util.Scanner;
+package maquinapga;
 
-public class Calculadora {
-    static Scanner entrada = new Scanner(System.in);
-    
+public class Calculadora {   
     //Atributos
-    private int numb1;
-    private int numb2;
+    private double numb1;
+    private double numb2;
 
     //Setter y Getter
     public double getNumb1() {
         return numb1;
     }
-    public void setNumb1(int numb1) {
+    public void setNumb1(double numb1) {
         this.numb1 = numb1;
     }
     public double getNumb2() {
         return numb2;
     }
-    public void setNumb2(int numb2) {
+    public void setNumb2(double numb2) {
         this.numb2 = numb2;
     }
 
     //Metodos
-    public int sumar(){
+    public double sumar(){
         return (this.numb1 + this.numb2);
     }
-    public int restar(){
+    public double restar(){
         return (this.numb1 - this.numb2);
     }
-    public int multiplicar(){
+    public double multiplicar(){
         return (this.numb1 * this.numb2);
     }
-    public int dividir(){
+    public double dividir(){
         return (this.numb1 / this.numb2);
     }
-    
 }
