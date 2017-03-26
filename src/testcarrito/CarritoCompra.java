@@ -29,7 +29,14 @@ public class CarritoCompra {
     public void setMontoFinal(int montoFinal) {
         this.montoFinal = montoFinal;
     }
-
+    
+    //Metodos
+    public void agregarProducto(int i, int Agregado){
+        Cantidad[i] = Cantidad[i] + Agregado;
+    }
+    public void quitarProducto(int i, int Agregado){
+        Cantidad[i] = Cantidad[i] + Agregado;
+    }
     
 
 }
